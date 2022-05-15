@@ -69,7 +69,7 @@ export default function TextForms(props) {
           <button
             disabled={text.length === 0}
             type="button"
-            className="btn btn-primary mx-2"
+            className="btn btn-primary mx-2 my-1"
             onClick={handleUpClick}
           >
             Convert to Uppercase
@@ -77,7 +77,7 @@ export default function TextForms(props) {
           <button
             disabled={text.length === 0}
             type="button"
-            className="btn btn-primary mx-2"
+            className="btn btn-primary mx-2 my-1"
             onClick={handleLoClick}
           >
             Convert to Lowercase
@@ -85,7 +85,7 @@ export default function TextForms(props) {
           <button
             disabled={text.length === 0}
             type="button"
-            className="btn btn-primary mx-2"
+            className="btn btn-primary mx-2 my-1"
             onClick={handleClear}
           >
             Clear Text
@@ -93,7 +93,7 @@ export default function TextForms(props) {
           <button
             disabled={text.length === 0}
             type="button"
-            className="btn btn-warning mx-2"
+            className="btn btn-warning mx-2 my-1"
             onClick={speak}
           >
             Speak
